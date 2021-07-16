@@ -1,0 +1,195 @@
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discover-container {
+  display: flex;
+  position: relative;
+}
+
+.collection-container {
+  display: flex;
+  margin-top: 1%;
+  margin-right: 0.5%;
+  justify-content: space-between;
+  flex: 1;
+}
+.detail-container {
+  display: flex;
+  margin-top: 1%;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+  height: 20%;
+
+  background-color: white;
+}
+.instant-grams-container {
+  display: flex;
+  margin-top: 1%;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+  align-items: center;
+}
+.image-collections-container {
+  display: flex;
+  margin-top: 1%;
+  margin-right: 0.5%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+body {
+  background-image: linear-gradient(to right, rgb(248, 103, 103), blue);
+}
+
+.flex {
+  display: flex;
+  flex: auto;
+}
+
+.image {
+  padding: 0 6px;
+  width: 70%;
+  /* max-width: 70%; */
+  position: relative;
+  margin-top: 1%;
+}
+
+.text-position {
+  position: absolute;
+  background-color: yellow;
+}
+
+.heading-styling {
+  top: 20%;
+  left: 8%;
+  padding: 0.7% 0.5%;
+  font-size: 26;
+}
+
+.subHeading-styling {
+  top: 30%;
+  left: 8%;
+  padding: 0.5% 0.2%;
+  font-size: 22;
+}
+
+button {
+  flex: 1;
+  border: none;
+  padding: 1% 1%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0.5% 0.5%;
+  cursor: pointer;
+  background-color: yellow;
+}
+
+.discover-container {
+  display: flex;
+  flex: auto;
+}
+
+.pricing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 5px;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.pricing-item {
+  background-color: yellow;
+  padding: 70px 0;
+  flex: 1;
+  text-align: center;
+}
+
+.collection-item {
+  background-color: white;
+  text-align: center;
+  padding-top: 1%;
+  margin-left: 1%;
+}
+
+.icon {
+  width: 15%;
+}
+
+.detail-image {
+  padding-left: 5%;
+
+  max-width: 50%;
+}
+
+.detail-content {
+  margin-top: 8%;
+  margin-left: 5%;
+}
+
+.instant-grams-line-left {
+  flex: 2;
+  height: 20px;
+  width: 40%;
+  margin-right: 1%;
+  background-image: linear-gradient(to right, transparent, yellow);
+}
+
+.instant-grams-line-right {
+  flex: 2;
+  height: 20px;
+  width: 40%;
+  margin-left: 1%;
+  background-image: linear-gradient(to right, yellow, transparent);
+}
+
+.image-collections-item {
+  height: 80px;
+  flex: 1;
+  margin-bottom: 2%;
+  margin-left: 2%;
+}
+
+@media (max-width: 480px) {
+  button {
+    display: block;
+    width: 100%;
+  }
+  .button-container {
+    display: block;
+    width: 100%;
+  }
+  .collection-container {
+    display: block;
+  }
+  .discover-container {
+    display: block;
+  }
+  .image {
+    width: 98%;
+  }
+  .heading-styling {
+    top: 10%;
+    left: 8%;
+  }
+  .subHeading-styling {
+    top: 15%;
+    left: 8%;
+  }
+  .pricing-item {
+    padding: 20px 0;
+  }
+  .detail-container {
+    display: block;
+    text-align: center;
+    padding-bottom: 1%;
+  }
+  .button-styling {
+    width: 80%;
+    text-align: center;
+  }
+}
